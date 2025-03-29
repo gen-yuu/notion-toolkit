@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# dotenv
+.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Mac
+.DS_Store

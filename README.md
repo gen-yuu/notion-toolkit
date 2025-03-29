@@ -1,7 +1,7 @@
 # 📝 Notion企業データ管理ツール
 
 このプロジェクトは、企業情報（興味度・ES提出・参加イベントなど）を Notion データベース上で一元管理するための自動化ツールです。
-
+![Notionデータベースの例](images/notion_example.png)
 ## 📦 機能概要
 
 - 企業一覧（JSON）をもとに Notion にデータベースを作成
@@ -17,12 +17,15 @@
 ├── .env                    # 環境変数（APIキーなど）※除外対象
 ├── data/
 │   └── companies.json      # 企業情報（興味度・参加など）
+├── images
+│   └── notion_example.png
 ├── notion/
 │   ├── init.py
 │   ├── api.py              # ヘッダー・APIキー取得
 │   ├── database.py         # データベース作成処理
 │   ├── pages.py            # ページ追加処理
 │   └── logger.py           # ターミナル表示用ロガー
+├── requirements.txt
 ├── scripts/
 │   └── create_db_and_add_companies.py  # メインスクリプト
 │   └── test.py             #接続テスト
